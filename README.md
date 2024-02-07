@@ -2,7 +2,6 @@
 
 
 
-
 this repository caontains files from code campus javascript's class from tlhe February cohort. it include classroom work as well as assignments.
 
 ## Hello World 
