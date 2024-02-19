@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <h1> Javascript Functions</h1>
+    <p>call a funciton which performs a calculation and returns the result</p>
+    <p id ="demo"></p>
+    <p id="temperature"></p>
+
+
+    <script>
+        // function to calculate the product of two numbers
+        function myfunction(p1, p2){
+            return p1 * p2;
+    
+        }
+        // function to convert to celcius 
+        function tocelcius(fahrenheit){
+            return (5/9) * (fahrenheit - 32)
+        }
+        // save the answer to product 
+        let result = myfunction(4, 3);
+        let message = "4 X 3 =" + result;
+
+        // save the asnwer to celcius 
+        let answer = tocelcius(212)
+        let newMessage = "312 degrees fahrenheit is " + answer + "degree celcius.";
+
+        // display the answer to product 
+        document.getElementById("demo").innerHTML = message;
+
+        // display the answer to product
+
+        document.getElementById("temperature").innerHTML = newMessage;
+    </script>
+ 
+    
+</body>
+</html>

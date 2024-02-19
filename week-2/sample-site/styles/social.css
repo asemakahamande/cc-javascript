@@ -1,0 +1,32 @@
+
+
+div{
+    top: 200px;
+    display: flex;
+    position: relative;
+    /* flex-direction: column; */
+    /* border: 2px solid red;  */
+    align-content: center;  
+    justify-content: center;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* justify-items: center; */
+
+}
+
+li{
+    /* display: flex; */
+    padding-left: 20px;
+
+}
+
+a:hover {
+    background-color: red;
+    border: 5px solid blue;
+
+}
